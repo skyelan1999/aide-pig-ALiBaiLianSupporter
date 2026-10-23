@@ -2,7 +2,7 @@
   "protocol": 1,
   "id": "ali-bailian",
   "name": "阿里云百炼（北京）",
-  "revision": "2026-10-22",
+  "revision": "2026-10-23",
   "currency": "CNY",
   "sources": [
     "https://help.aliyun.com/zh/model-studio/model-pricing",
@@ -245,6 +245,18 @@
           "priceIn": 4.8,
           "priceOut": 48,
           "priceOutThinking": 64
+        }
+      ]
+    },
+    {
+      "names": [
+        "glm-5.3"
+      ],
+      "tiers": [
+        {
+          "maxInput": 0,
+          "priceIn": 8,
+          "priceOut": 28
         }
       ]
     }
