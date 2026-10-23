@@ -20,3 +20,6 @@ python3 scripts/package.py
 ```
 
 ZIP 仅含运行必需档案、入口、许可与文档，不含测试、凭证、Git 元数据或开发缓存。本轮未调用真实费用接口或付费模型。宿主集成验收与插件自身测试分别记录。
+
+### 0.1.2
+Supports Beijing workspace endpoints (`<workspace>.cn-beijing.maas.aliyuncs.com`) through Aide’s validated `workspaceRegion` matcher. Other regions remain excluded; no keys or workspace identifiers are stored in this catalog. Requires the corresponding Aide host adapter update.
